@@ -1,1 +1,60 @@
-/* desafio html e css */
+header {
+    background:#ffffff;
+    padding: 20px;
+}
+.menu-superior {
+    position:relative;
+    width: auto;
+
+}
+nav {
+    position:absolute;
+    left:50%;
+    top: 50%;
+}
+nav li {
+    display: inline;
+    margin: 0 20px 0 0 ;
+}
+nav a {
+    color: #1351d8;
+    font-size: 20px;
+}
+.caixa-central {
+    position: relactive;
+    width: auto;
+    margin:0 auto; 
+    padding: 40px;
+    text-align: center;
+
+}
+main img {
+    width: 100%;
+    position:relative;
+}
+footer {
+    background:#1b357e
+}
+.caixa-inferior{
+    background:#1351d8;
+    padding: 20px;
+    width: auto;
+    margin: 40px;
+  
+}
+footer li {
+    display: inline-block;
+    margin: 10px;
+}
+.redes-sociais {
+    position:relative;
+    font-size: 18px;
+    font-weight: bold;
+    color:#ffffff;
+    top: 0px
+}
+
+
+
+/*#1b357e;
+#1351d8; */
