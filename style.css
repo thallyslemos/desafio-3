@@ -36,14 +36,14 @@ footer {
     background:#1b357e
 }
 .caixa-inferior{
-    background:#1351d8;
     padding: 20px;
     width: auto;
     margin: 40px;
+    justify-content: space-between;
   
 }
 footer li {
-    display: inline-block;
+    display: inline-flex;
     margin: 10px;
 }
 .redes-sociais {
@@ -51,7 +51,8 @@ footer li {
     font-size: 18px;
     font-weight: bold;
     color:#ffffff;
-    top: 0px
+    top: 0px;
+    align-items: center; 
 }
 
 
