@@ -2,14 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Lançamento Ranger Ford</title>
+        <meta name="viewport" content="width=device-width">
+        <title>Ranger Ford</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <div class="menu-superior">
-                <h1><img src="logo-ford-256.png" out="Logo Ford"></h1>
+                <img src="logo-ford-256.png" out="Logo Ford">
                 <nav>    
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -17,42 +21,69 @@
                         <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </nav>
+                <nav></nav>
             </div>
         </header>
         <main>
-            <div class="caixa-central">
-                <h1><img src="imagem_1.jpg" out="Ford Ranger Preta"></h1>
-                <p>Essa é a nova Ranger Ford. Verifique novidades <a href="contato.html">aqui</a></p>
+            <div class="caixa-video">
+                    <iframe class="video" widith="100%" height="315px" src="https://www.youtube.com/embed/vQsryuNmsL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div>
-                <ul class="versoes">
-                    <li>
-                        <img src="XL Cabine.jpg">
-                        <label for="radio-xl"><input type="radio" name="modelos" value="xl" id="radio-xl">XL Cabine Simples 2.2 Diesel </label>
-                    </li>
-                    <li>
-                        <img src="xls 2.2 diesel.jpg">
-                        <label for="radio-xls"><input type="radio" name="modelos" value="xls" id="radio-xls">XLS 2.2 Diesel </label>
-                    </li>
-                    <li>
-                        <img src="storm.jpg">
-                        <label for="radio-storm"><input type="radio" name="modelos" value="storm" id="radio-storm">Storm 3.2 Diesel </label>
-                    </li>
-                </ul>
-            </div>
+                <div class="caixa-versoes">
+                    <table class="versoes" >
+                        <tr>
+                            <td>
+                                <img src="XL Cabine.jpg">
+                                <div class="nome">
+                                    <div class="check" >
+                                        <input type="checkbox" name="check-xl" value="xl" id="check-xl">
+                                        <label for="check-xl"><h2>XL Cabine Simples 2.2 Diesel 4X4 MT 2022</h2><h3>A partir de R$ 218.990 </h3></label>
+                                    </div>
+                                    <div>
+                                        <p>🛈</p>
+                                    </div> 
+                                </div>
+                            </td>
+                            <td>
+                                <img src="xls 2.2 diesel.jpg">
+                                <div class="nome">
+                                    <div class="check" >
+                                        <input type="checkbox" name="check-xls" value="xls" id="check-xls">
+                                        <label for="check-xls"><h2>XLS 2.2 Diesel 4X4 AT 2022</h2><h3>A partir de R$ 252.390</h3></label>
+                                    </div>
+                                    <div>
+                                        <p>🛈</p>
+                                    </div>
+                                </div>
+
+                            </td>
+                            <td>
+                                <img src="storm.jpg">
+                                <div class="nome">
+                                    <div class="check" >
+                                        <input type="checkbox" name="check-storm" value="storm" id="check-storm">
+                                        <label for="check-storm"><h2>Storm 3.2 Diesel 4X4 AT 2022</h2><h3>A partir de R$ 258.190</h3></label> 
+                                    </div>
+                                    <div>
+                                        <p>🛈</p> 
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div>
+                        <input type="submit" value="Comparar" class="comparar">
+                    </div>
+                </div>
         </main>
         <footer>
             <div class="caixa-inferior">
-                
-                <ul>
+                <ul class="redes-sociais">
                     <li class="redes-sociais">Redes Sociais</li>
                     <li><a href="https://www.facebook.com/FordBrasil?hc_location=stream"><img src="facebook-50.png" out="Facebook"></a></li>
                     <li><a href="https://www.youtube.com/user/fordbrasil"><img src="youtube-squared-50.png" out="YouTube"></a></li>
                     <li><a href="https://www.instagram.com/fordbrasil/"><img src="instagram-logo-50.png" out="Instagram"></a></li>
-                   <li><img src="ford-96.png" class="logo"></li>
                 </ul>
-    
-               
+                <div><img src="ford-96.png" class="logo"></div>
             </div>
         </footer>
     </body>

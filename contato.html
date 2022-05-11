@@ -2,14 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Contato</title>
+        <meta name="viewport" content="width=device-width">
+        <title>Ranger Ford</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <div class="menu-superior">
-                <h1><img src="logo-ford-256.png" out="Logo Ford"></h1>
+                <img src="logo-ford-256.png" out="Logo Ford">
                 <nav>    
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -17,59 +21,53 @@
                         <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </nav>
+                <nav></nav>
             </div>
         </header>
         <main>
-            <div class="caixa-central">
-                <img src="xls 2.2 diesel.jpg">
-
-            </div>
-            <form>
-                <label for="nomeesobrenome">Nome e sobrenome</label>
-                <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="seuemail@dominio.com">
- 
-                <label for="email">Email</label>
-                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
- 
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" class="input-padrao" required placeholder="(DD)XXXXX-XXXX">
- 
-                 <fieldset>
-                     <legend>Motivo do Contato</legend>
-                     <label for="radio-elogio"><input type="radio" name="contato" value="elogio" id="radio-elogio">Elogio</label>
-                     
- 
-                     <label for="radio-reclamacao"> <input type="radio" name="contato" value="reclamacao" id="radio-reclamacao">Reclamação</label>
+            <div class="conteudo">
+                <div>
+                    <img src="xls 2.2 diesel.jpg">
+                </div>
+                <form class="formulario">
+                    <h2>SOBRE VOCÊ</h2>
+                    <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="NOME*">
                     
- 
-                     <label for="radio-solicitacao"> <input type="radio" name="contato" value="solicitacao" id="radio-solicitacao">Solicitação</label>
-                    
-                 </fieldset>  
-
-                 <label for="mensagem">Mensagem</label>
-                 <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required >   </textarea>
-                
-                 <input type="submit" value="Enviar formulário" class="enviar">
+                    <input type="email" id="email" class="input-padrao" required placeholder="E-MAIL*">
+    
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="TELEFONE*">
+    
+                    <fieldset>
+                        <legend>Motivo do Contato</legend>
+                        <div class="selecao" >
+                            <label for="radio-elogio"><input type="radio" name="contato" value="elogio" id="radio-elogio">Elogio</label>
                             
-             </form>
+        
+                            <label for="radio-reclamacao"> <input type="radio" name="contato" value="reclamacao" id="radio-reclamacao">Reclamação</label>
+                            
+        
+                            <label for="radio-solicitacao"> <input type="radio" name="contato" value="solicitacao" id="radio-solicitacao">Solicitação</label>
+                        </div>
+                    </fieldset>  
 
-            <div>
+                    <label for="mensagem">Mensagem</label>
 
+                    <textarea cols="70" rows="2" id="mensagem" class="input-padrao" required >   </textarea>
+                    
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
             </div>
 
         </main>
         <footer>
             <div class="caixa-inferior">
-                
-                <ul>
+                <ul class="redes-sociais">
                     <li class="redes-sociais">Redes Sociais</li>
                     <li><a href="https://www.facebook.com/FordBrasil?hc_location=stream"><img src="facebook-50.png" out="Facebook"></a></li>
                     <li><a href="https://www.youtube.com/user/fordbrasil"><img src="youtube-squared-50.png" out="YouTube"></a></li>
                     <li><a href="https://www.instagram.com/fordbrasil/"><img src="instagram-logo-50.png" out="Instagram"></a></li>
-                   <li><img src="ford-96.png" class="logo"></li>
                 </ul>
-    
-               
+                <div><img src="ford-96.png" class="logo"></div>
             </div>
         </footer>
     </body>
